@@ -88,7 +88,7 @@ class _Home extends State<Home>{
   }
 
   void snack(String t){
-    Scaffold.of(context).showSnackBar(
+    Scaffold.of(bc).showSnackBar(
         SnackBar(
             content: Text(t)
         )
